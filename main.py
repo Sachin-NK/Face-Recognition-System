@@ -47,7 +47,7 @@ def recognize_faces(encodings_file):
                 best_match_index = np.argmin(distances)
 
                 # Match if within threshold
-                if distances[best_match_index] < 0.7:  # Adjust threshold as needed
+                if distances[best_match_index] < 0.6:  
                     name = known_face_names[best_match_index]
                     color = (0, 255, 0)  # Green for recognized faces
                 else:
