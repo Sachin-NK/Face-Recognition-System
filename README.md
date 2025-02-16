@@ -1,4 +1,4 @@
-# Face Recognition System
+# Face-Recognition-System
 This project implements a real-time face recognition system using a pre-trained DeepFace model, OpenCV, and a custom database for face encodings. It supports recognizing faces from a live webcam feed and identifying them based on stored encodings.
 
 ## Features
